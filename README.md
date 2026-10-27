@@ -16,7 +16,7 @@
 
 ## The product
 
-AaradhanaSetu brings Daily Darshan, deity-led discovery, devotional galleries, a multilingual PDF library, offline reading, favourites, recent history, and a Jaap counter into one calm mobile experience. It is designed for people who may have intermittent connectivity, prefer familiar language choices, and want devotion without a crowded content feed.
+AaradhanaSetu brings Daily Darshan, deity-led discovery, devotional galleries, a multilingual PDF library, offline reading, favourites, recent history, and independent Multi-Jaap counters into one calm mobile experience. It is designed for people who may have intermittent connectivity, prefer familiar language choices, and want devotion without a crowded content feed.
 
 The application pairs a reader-facing mobile app with a private publishing system. Approved editors can manage localized titles, document versions, deity imagery, ordering, and publication status without shipping a new app release for every catalogue change.
 
@@ -66,7 +66,7 @@ The library separates interface language from document language, supports search
 | --- | --- |
 | <img src="assets/pdf-reader.png" alt="AaradhanaSetu devotional PDF reader" width="360" /> | <img src="assets/jaap-counter.png" alt="AaradhanaSetu Jaap counter for personal practice" width="360" /> |
 
-Reading, favourites, recent history, downloads, and the Jaap counter are treated as personal tools—not engagement tricks.
+Reading, favourites, recent history, downloads, optional Daily Darshan reminders, and independent Jaap counters are treated as personal tools—not engagement tricks. Each mantra keeps its own count and completed malas while the devotee moves between practices.
 
 ### Four interface languages
 
@@ -79,8 +79,8 @@ Gujarati, Marathi, Hindi, and English are first-class interface choices, with do
 ## What I built
 
 - A multilingual Ionic React application packaged for Android and prepared for iOS through Capacitor.
-- Daily Darshan, deity relationships, devotional galleries, image saving, and a personal Jaap counter.
-- An offline-first library with starter content, verified downloads, favourites, recently opened items, and a PDF reader.
+- Daily Darshan, optional local reminders, deity relationships, devotional galleries, image saving, and independent Multi-Jaap progress.
+- An offline-first library with starter content, verified downloads, automatic refresh of updated PDFs, favourites, recently opened items, and a PDF reader with a simple content-correction report.
 - Remote catalogue synchronization with checksums and immutable content versions.
 - A private React publishing portal for localized metadata, PDFs, imagery, visibility, and ordering.
 - Cloudflare Workers APIs backed by D1 metadata and private R2 object storage.
@@ -114,7 +114,7 @@ The useful lesson was not “AI wrote an app.” It was that disciplined AI coll
 
 ## Delivery status
 
-- [Available on Google Play](https://play.google.com/store/apps/details?id=io.github.iamrajshah.aaradhanasetu) with the Android application ID and release-signing path established.
+- [Version 1.0.3 is publicly available on Google Play](https://play.google.com/store/apps/details?id=io.github.iamrajshah.aaradhanasetu); version 1.0.4 is the prepared next update with Multi-Jaap, optional reminders, safer content refresh, and reliability improvements.
 - The published mobile experience and catalogue are represented in the walkthrough above.
 - The iOS project is generated and device testing is supported; App Store release work remains separate.
 
