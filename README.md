@@ -20,6 +20,10 @@ AaradhanaSetu brings Daily Darshan, deity-led discovery, devotional galleries, a
 
 The application pairs a reader-facing mobile app with a private publishing system. Approved editors can manage localized titles, document versions, deity imagery, ordering, and publication status without shipping a new app release for every catalogue change.
 
+## Download the app
+
+📲 **[Get AaradhanaSetu on Google Play](https://play.google.com/store/apps/details?id=io.github.iamrajshah.aaradhanasetu)**
+
 ## Watch the product
 
 ▶️ **[Play the AaradhanaSetu app walkthrough](demo/AaradhanaSetu-app-demo.mp4)**
@@ -110,7 +114,7 @@ The useful lesson was not “AI wrote an app.” It was that disciplined AI coll
 
 ## Delivery status
 
-- Deployed to Google Play with the Android application ID and release-signing path established.
+- [Available on Google Play](https://play.google.com/store/apps/details?id=io.github.iamrajshah.aaradhanasetu) with the Android application ID and release-signing path established.
 - The published mobile experience and catalogue are represented in the walkthrough above.
 - The iOS project is generated and device testing is supported; App Store release work remains separate.
 
