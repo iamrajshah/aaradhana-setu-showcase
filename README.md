@@ -18,7 +18,7 @@
 
 AaradhanaSetu brings Daily Darshan, deity-led discovery, devotional galleries, a multilingual PDF library, offline reading, favourites, recent history, and independent Multi-Jaap counters into one calm mobile experience. It is designed for people who may have intermittent connectivity, prefer familiar language choices, and want devotion without a crowded content feed.
 
-The application pairs a reader-facing mobile app with a private publishing system. Approved editors can manage localized titles, document versions, deity imagery, ordering, and publication status without shipping a new app release for every catalogue change.
+The application pairs a reader-facing mobile app with a private publishing system. Approved editors can manage localized titles, document versions, deity imagery, ordering, publication status, and time-bound festival collections without shipping a new app release for every catalogue change.
 
 ## Download the app
 
@@ -83,6 +83,9 @@ Gujarati, Marathi, Hindi, and English are first-class interface choices, with do
 - An offline-first library with starter content, verified downloads, automatic refresh of updated PDFs, favourites, recently opened items, and a PDF reader with a simple content-correction report.
 - Remote catalogue synchronization with checksums and immutable content versions.
 - A private React publishing portal for localized metadata, PDFs, imagery, visibility, and ordering.
+- A staged publishing workflow where editors can upload and verify a new PDF version, keep the current version live, preview the draft, and publish only when it is approved.
+- Removable, date-aware festival collections that can highlight timely reading on Home while keeping every published document available in the full Library afterward.
+- A PDF Studio for reusable devotional layouts, manual page insertion, title/subtitle compositions, and per-page image shape and sizing controls.
 - Cloudflare Workers APIs backed by D1 metadata and private R2 object storage.
 - Short-lived delivery authorization so private documents are not exposed as permanent public URLs.
 - Public privacy and support pages plus an Android release workflow.
@@ -93,10 +96,11 @@ Gujarati, Marathi, Hindi, and English are first-class interface choices, with do
 | --- | --- |
 | Unreliable connectivity | Keep starter documents in the app and cache approved downloads for offline reading |
 | Four-language content | Treat display language and document language as separate, explicit metadata |
-| Safe document updates | Publish immutable versions with checksums instead of overwriting files in place |
+| Safe document updates | Stage and verify immutable versions with checksums, then explicitly promote the approved version instead of overwriting files in place |
 | Private content delivery | Authorize downloads through the API and issue short-lived storage access |
 | Small trusted editorial team | Protect the publisher portal separately from the public reader experience |
 | Mobile release friction | Make catalogue and metadata changes server-driven wherever native changes are unnecessary |
+| Seasonal discovery | Publish removable, scheduled festival collections without hiding their documents from the permanent Library |
 
 ## Architecture
 
@@ -114,9 +118,10 @@ The useful lesson was not “AI wrote an app.” It was that disciplined AI coll
 
 ## Delivery status
 
-- [Version 1.0.3 is publicly available on Google Play](https://play.google.com/store/apps/details?id=io.github.iamrajshah.aaradhanasetu); version 1.0.4 is the prepared next update with Multi-Jaap, optional reminders, safer content refresh, and reliability improvements.
-- The published mobile experience and catalogue are represented in the walkthrough above.
-- The iOS project is generated and device testing is supported; App Store release work remains separate.
+- [Version 1.0.4 is publicly available on Google Play](https://play.google.com/store/apps/details?id=io.github.iamrajshah.aaradhanasetu). It includes Multi-Jaap, optional Daily Darshan reminders, automatic refresh of updated offline PDFs, content-problem reporting, and the relationship-aware Darshan experience described above.
+- Android 1.0.5 is the next verified candidate. It adds remotely managed Festival collections; it is not presented here as live until its signed bundle is uploaded and rolled out through Google Play.
+- iOS 1.0 has passed owner testing on a physical iPhone and has been submitted to App Review. It is not yet publicly available on the App Store.
+- Catalogue, imagery, and metadata can continue to evolve through the controlled publishing workflow without forcing existing users to install a new mobile binary.
 
 ## Why the source repository is private
 
