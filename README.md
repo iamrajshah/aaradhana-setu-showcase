@@ -3,7 +3,7 @@
 > A multilingual, offline-first devotional companion that keeps daily practice, trusted reading, and personal collections close—even when the network is not.
 
 <p align="center">
-  <img src="assets/demo-cover.jpg" alt="AaradhanaSetu mobile app showing its devotional home experience" width="100%" />
+  <img src="assets/home-daily-darshan.png" alt="Current AaradhanaSetu home screen showing Today's devotion and deity collections" width="360" />
 </p>
 
 <p align="center">
@@ -26,13 +26,13 @@ The application pairs a reader-facing mobile app with a private publishing syste
 
 ## Watch the product
 
-▶️ **[Play the AaradhanaSetu app walkthrough](demo/AaradhanaSetu-app-demo.mp4)**
+▶️ **[Watch the full iPhone walkthrough](demo/AaradhanaSetu-iOS-1.0-physical-device-walkthrough.mp4)** · 2 min
 
-The silent walkthrough was captured from the current mobile app against the read-only published catalogue on 16 October 2026. It uses no third-party music, credentials, private administration screens, or live catalogue writes.
+⚡ **[Watch the quick product overview](demo/AaradhanaSetu-app-demo.mp4)** · 58 sec
 
-<p align="center">
-  <img src="assets/product-overview.jpg" alt="AaradhanaSetu product walkthrough covering home, deity discovery, the library, offline access, and language options" width="100%" />
-</p>
+The full walkthrough was captured from iOS 1.0 on a physical iPhone. It starts from app launch and demonstrates Daily Darshan, deity navigation, the Darshan Gallery and image saving, Library search, PDF download and offline reading, independent Jaap counters, language selection, and local reminder setup. The shorter overview remains available for visitors who want a faster introduction.
+
+Both recordings show only the public reader experience. They contain no credentials, private administration screens, third-party music, or live catalogue writes.
 
 ## Product walkthrough
 
@@ -62,9 +62,9 @@ The library separates interface language from document language, supports search
 
 ### Reading and personal practice
 
-| Focused PDF reader | Jaap counter |
+| Focused PDF reader | Independent Multi-Jaap counters |
 | --- | --- |
-| <img src="assets/pdf-reader.png" alt="AaradhanaSetu devotional PDF reader" width="360" /> | <img src="assets/jaap-counter.png" alt="AaradhanaSetu Jaap counter for personal practice" width="360" /> |
+| <img src="assets/pdf-reader.png" alt="Current AaradhanaSetu devotional PDF reader" width="360" /> | <img src="assets/jaap-counter.png" alt="Current AaradhanaSetu Multi-Jaap view with independent saved counts" width="360" /> |
 
 Reading, favourites, recent history, downloads, optional Daily Darshan reminders, and independent Jaap counters are treated as personal tools—not engagement tricks. Each mantra keeps its own count and completed malas while the devotee moves between practices.
 
@@ -120,7 +120,7 @@ The useful lesson was not “AI wrote an app.” It was that disciplined AI coll
 
 - [Version 1.0.4 is publicly available on Google Play](https://play.google.com/store/apps/details?id=io.github.iamrajshah.aaradhanasetu). It includes Multi-Jaap, optional Daily Darshan reminders, automatic refresh of updated offline PDFs, content-problem reporting, and the relationship-aware Darshan experience described above.
 - Android 1.0.5 is the next verified candidate. It adds remotely managed Festival collections; it is not presented here as live until its signed bundle is uploaded and rolled out through Google Play.
-- iOS 1.0 has passed owner testing on a physical iPhone and has been submitted to App Review. It is not yet publicly available on the App Store.
+- iOS 1.0 has passed owner testing on a physical iPhone and is currently in App Review. The full iPhone walkthrough linked above shows the submitted build; the app is not presented as publicly available until Apple approves it.
 - Catalogue, imagery, and metadata can continue to evolve through the controlled publishing workflow without forcing existing users to install a new mobile binary.
 
 ## Why the source repository is private
