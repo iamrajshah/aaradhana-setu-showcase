@@ -24,6 +24,8 @@ The application pairs a reader-facing mobile app with a private publishing syste
 
 📲 **[Get AaradhanaSetu on Google Play](https://play.google.com/store/apps/details?id=io.github.iamrajshah.aaradhanasetu)**
 
+📲 **[Get AaradhanaSetu on Apple Store](https://apps.apple.com/us/app/aaradhanasetu/id6828031500)**
+
 ## Watch the product
 
 ▶️ **[Watch the full iPhone walkthrough](demo/AaradhanaSetu-iOS-1.0-physical-device-walkthrough.mp4)** · 2 min
