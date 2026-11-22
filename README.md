@@ -30,11 +30,15 @@ The application pairs a reader-facing mobile app with a private publishing syste
 
 ▶️ **[Watch the full iPhone walkthrough](demo/AaradhanaSetu-iOS-1.0-physical-device-walkthrough.mp4)** · 2 min
 
+**[Watch the devotional audio preview](demo/AaradhanaSetu-1.1.0-audio-preview.mp4)** · 16 sec
+
+See how to find Ganpati Stotra, use the player, build a playlist for morning prayers, and manage offline recordings. This silent preview uses iPhone screenshots from version 1.1.0.
+
 ⚡ **[Watch the quick product overview](demo/AaradhanaSetu-app-demo.mp4)** · 58 sec
 
 The full walkthrough was captured from iOS 1.0 on a physical iPhone. It starts from app launch and demonstrates Daily Darshan, deity navigation, the Darshan Gallery and image saving, Library search, PDF download and offline reading, independent Jaap counters, language selection, and local reminder setup. The shorter overview remains available for visitors who want a faster introduction.
 
-Both recordings show only the public reader experience. They contain no credentials, private administration screens, third-party music, or live catalogue writes.
+The videos show only the public reader experience. They contain no credentials, private administration screens, third-party music, or live catalogue writes.
 
 ## Product walkthrough
 
