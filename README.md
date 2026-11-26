@@ -84,7 +84,7 @@ Gujarati, Marathi, Hindi, and English are first-class interface choices, with do
 
 ## What I built
 
-- A multilingual Ionic React application packaged for Android and prepared for iOS through Capacitor.
+- A multilingual Ionic React application packaged for Android and iOS through Capacitor.
 - Daily Darshan, optional local reminders, deity relationships, devotional galleries, image saving, and independent Multi-Jaap progress.
 - An offline-first library with starter content, verified downloads, automatic refresh of updated PDFs, favourites, recently opened items, and a PDF reader with a simple content-correction report.
 - Remote catalogue synchronization with checksums and immutable content versions.
@@ -126,7 +126,7 @@ The useful lesson was not “AI wrote an app.” It was that disciplined AI coll
 
 - [Version 1.0.4 is publicly available on Google Play](https://play.google.com/store/apps/details?id=io.github.iamrajshah.aaradhanasetu). It includes Multi-Jaap, optional Daily Darshan reminders, automatic refresh of updated offline PDFs, content-problem reporting, and the relationship-aware Darshan experience described above.
 - Android 1.0.5 is the next verified candidate. It adds remotely managed Festival collections; it is not presented here as live until its signed bundle is uploaded and rolled out through Google Play.
-- iOS 1.0 has passed owner testing on a physical iPhone and is currently in App Review. The full iPhone walkthrough linked above shows the submitted build; the app is not presented as publicly available until Apple approves it.
+- [AaradhanaSetu is publicly available on the App Store for iPhone and iPad](https://apps.apple.com/us/app/aaradhanasetu/id6828031500). The full iPhone walkthrough linked above was captured from version 1.0 on a physical iPhone.
 - Catalogue, imagery, and metadata can continue to evolve through the controlled publishing workflow without forcing existing users to install a new mobile binary.
 
 ## Why the source repository is private
